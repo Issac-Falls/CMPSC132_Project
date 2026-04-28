@@ -281,7 +281,7 @@ def get_input(board: list) -> list:
     """
 
     #initial input
-    CONSTANT_TIME = 0
+    CONSTANT_TIME = 2
     players_input = input("Please input your row and column: ")
 
 
@@ -393,7 +393,7 @@ def rules(board: list):
     """
 
     #A constant for the amount of time between prints, then prints the rules
-    CONSTANT_TIME = 0
+    CONSTANT_TIME = 3
 
     print("Welcome to Tic-Tac-Toe!")
     time.sleep(CONSTANT_TIME)
